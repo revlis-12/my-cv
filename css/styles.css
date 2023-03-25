@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+#main-title {
+    margin: 10rem auto 0;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 7.5rem;
+    color: #1C82AD;
+    line-height: 2;
+}
+
+#sub-title {
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.25rem;
+    color: #1C82AD;
+    text-align: center;
+}
+
+.top-container {
+    background-color: #B9F3FC;
+    position: relative;
+    padding-top: 50px;
+    width: 100%;
+}
+
+#mountain {
+    width: 50%;
+    margin: 0;
+}
+
+#top-cloud {
+    position: absolute;
+    top: 13rem;
+    right: 28rem;
+}
+
+#botton-cloud {
+    position: absolute;
+    bottom: 25rem;
+    left: 25rem;
+}
+
+
+h2 {
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    text-align: left;
+}
+
+
+
+a {
+    color: #11999E;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.skill-description {
+    text-align: left;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+.skill-title {
+    color: #11999E;
+}
+
+.code-img {
+    object-fit: cover;
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.game-img {
+    background-color: #D09CFA;
+    object-fit: cover;
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+
+#profile {
+    width: 50%;
+    margin: 50px auto;
+}
+
+#avatar {
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+#pro {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+hr {
+    border: 5px dotted #EEEEEE;
+    border-bottom: 0;
+    width: 2.5%;
+    /* opacity: 0.7; */
+}
+
+.contact-me {
+    text-align: center;
+    width: 50%;
+    margin: auto auto 10px;
+}
+
+#about-contact {
+    text-align: center;
+}
+
+.btn {
+	box-shadow: 1px 5px 14px -5px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:bold;
+	padding:20px 25px;
+	text-decoration:none;
+	text-shadow:2px 2px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin: 100px auto 0;
+    padding: 50px;
+}
+
+.footer-link {
+    font-size: 1.2rem;
+    margin: 10px;
+    text-decoration: none;
+}
+
